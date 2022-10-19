@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style type="text/css">
+		*{
+				margin: 0px;
+				padding: 0px;
+			}
+	h1{
+				width: 500px;
+				height: 80px;
+				margin: 0px auto;
+				text-align: center;
+			}
+		p{
+			color:#71A04D;
+		}
+		h6{
+			color:#F7ECDD;
+		}
+		h2{
+			color:#456125;
+		}
+		header{
+			weight: 800px;
+			height: 80px;
+			background-color:#F7ECDD;
+			color: #DA90B7;
+			margin: 0px auto;
+		}
+		section{
+			width: 800px;
+				height: 200px;
+				background-color:#F7ECDD;
+				margin: 0 auto; 
+				margin-bottom: 20px;
+				padding: 20px;
+		}
+		ul{
+			width: 150px;
+				height: 100px;
+				background-color:#F7ECDD;
+				margin: 0 auto; 
+				margin-bottom: 10px;
+				padding: 30px;
+		}
+		nav{
+				width:960px;
+				height:50px;
+				background-color: #D35095;
+			}
+			main{
+				width: 960px;
+				height: 1470px;
+				background-color: #D35095;
+				}
+		footer{
+				width: 960px;
+				height: 80px;
+				background-color:#D35095;
+				text-align: center;
+			margin: 0 auto; 
+				margin-bottom:0px;
+				padding:0px;
+				
+			}
+			header,nav,main,footer{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Tipos de Listas</h1>
+	</header>
+<nav></nav>
+<main>
+  <section>
+    <h2>Listas sin ordenar o desordenadas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quibusdam, temporibus sit voluptas reprehenderit fugiat dolores officia quod magnam eaque aliquid maxime eveniet dolorem maiores qui voluptatum sunt facere necessitatibus, vero hic harum consequuntur voluptatem dicta. Error sit harum nobis tempore consectetur nemo soluta, ad atque magnam dolorum! Facilis, molestiae.</p>
+	  </section>
+	 <!-- lorem(cantidad de palabras)+tab -->
+
+	<ul>
+  <li>Puebla</li>
+  <li>Tlaxcala</li>
+  <li>Guerrero</li>
+  <li>Veracruz</li>
+  <li>CDMX</li>
+</ul>
+  <section>
+    <h2>Listas Ordenadas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aperiam numquam adipisci neque, nobis tempora illum esse voluptatibus eos non, similique doloremque animi quasi beatae veritatis vitae! Voluptates labore expedita cumque, fugit a, molestiae fugiat perspiciatis quibusdam autem cupiditate rerum quisquam odio minus. Eligendi beatae dolorem explicabo aliquam animi earum placeat, ea nisi sequi ducimus esse laboriosam cumque repudiandae dolores accusantium itaque asperiores ab, et, iure minima doloribus! Optio repellendus nemo, eum voluptatem hic vero iure velit corporis provident. Qui, quas laborum quaerat vel iste consectetur, expedita, officiis alias suscipit modi obcaecati eaque pariatur id dignissimos voluptatum inventore est aliquid.</p>
+	  </section>
+<ul>
+	<ol>
+  <li>Zacatecas</li>
+  <li>Colima</li>
+  <li>Puebla</li>
+  <li>Tabasco</li>
+  <li>Aguascalientes</li>
+    </ol>
+	</ul>
+  <section>
+    <h2>Lista mixta</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt minus vel provident enim nostrum ratione voluptate ducimus voluptas quia. Hic, culpa consectetur reiciendis. Ipsa dolorum enim voluptates alias quae!</p>
+	<ul><ol>
+	  	<li>Zacatecas</li>
+  		<li>Colima</li>
+		<li>Tabasco</li>
+  		<li>Aguascalientes</li>
+  		<li>Puebla
+		<ul>
+			<li>Acajete</li>
+			<li>Atlixco</li>
+			<li>Cholula</li>
+			<li>Tepeaca</li>
+			<li>Chachapa</li>
+			<li>Puebla
+				<ul>
+					<li>San Manuel</li>
+					<li>San Bartolo</li>
+					<li>Bugambilias</li>
+					<li>Tres cruces</li>
+				</ul>
+			</li>
+			</ul>
+		</li>
+	  </ol>
+		</ul>
+	  </section>
+	<!--shortcut para secciones multiples con encabezado y parrafo(section>h2+p)*3-->
+</main>
+<footer>
+  <h6>Elaborado por Zurisadai Rosario Tamayo</h6>
+</footer>
+</body>
+</html>

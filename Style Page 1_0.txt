@@ -1,0 +1,108 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    background-color: #57C981;
+    height: 150px;
+}
+body nav {
+    background-color: #25AC56;
+    height: 80px;
+}
+body header, body nav, body main, body footer {
+    width: 1200px;
+}
+body main {
+    background-color: #42CB4D;
+}
+body main section {
+    width: 800px;
+    margin: 40px auto;
+    padding: 35px;
+    height: auto;
+    background-color: #94CB42;
+}
+main section h2 {
+    padding: 22px;
+    text-align: center;
+    color: #524A23;
+}
+main section ul {
+}
+.interno li {
+    background-color: #2FB83A;
+    width: 136px;
+    height: 43px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 20px;
+    color: #F9EA9A;
+    text-align: center;
+}
+.interno li a {
+    color: #633D0D;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    text-shadow: 0px 0px 8px #FFFFFF;
+    border-radius: 60%;
+    border-color: #42CB4D;
+}
+
+
+
+
+
+
+body footer {
+    background-color: #4FB88F;
+}
+main section p a {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 20%;
+    border-color: #CCC391;
+}
+
+body header h1 {
+    color: #F9EA9A;
+    text-align: center;
+}
+body footer h6 {
+    color: #F9EA9A;
+    text-align: center;
+    font-size: 18px;
+}
+#marcador1 {
+}
+#marcador_1 {
+}
+#marcador2 {
+}
+#marcador3 {
+}
+#marcador4 {
+}
+#correo {
+    color: #9C0A2E;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#interno {
+    color: #08412B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+}
+#externo {
+    color: #AC6001;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: small;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<linkhref="Style Page 1_0.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>FORMULARIOS</header>
+<nav><section>
+    <ul class="interno">
+      <li><a href="../Formatos de Texto/Formatos de texto Zuri.html">Formatos de Texto</a></li>
+      <li><a href="Listas 1.html">Listas</a></li>
+      <li><a href="Enlaces 12.html">Enlaces</a></li>
+<li><a href="Tablas 12.html">Tablas</a></li>
+		<li><a href="Imagenes 12.html">Imagenes</a></li>
+		<li><a href="Video_12.html">Videos</a></li>
+    </ul>
+  </section>
+</nav>
+<main>
+  <section>
+    <h2>FORMULARIO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni autem, quae accusamus eum rerum architecto rem quos corrupti deleniti consequatur voluptate culpa aperiam est perspiciatis perferendis, ex, quibusdam minus quia.</p>
+    <form id="form1" name="form1" method="post">
+      <label for="textfield">NOMBRE:</label>
+      <input type="text" name="NOMBRE" id="textfield">
+      
+    </form>
+    <label for="APELLIDO">APELLIDO:</label>
+    <input type="text" name="APELLIDO" id="APELLIDO">
+    <input type="submit" name="submit" id="submit" value="Enviar">
+	 
+	  <h2>FORMULARIO CON RADIO BUTTON</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dignissimos vel, inventore incidunt saepe nemo labore, eos unde voluptas esse totam magni! Dolorum facilis qui et aliquam, cum, iusto maiores.</p>
+	  <table width="200">
+	    <form>
+	      <td><label>Colocar aquí el genero<br>
+	        <br>
+	        </label>
+	        <label>
+	        <input type="radio" name="RadioGroup1" value="femenino" id="RadioGroup1_0">
+          femenino</label></td>
+			</form>
+        </tr>
+	    <tr>
+	      <td><label>
+	        <input type="radio" name="RadioGroup1" value="masculino" id="RadioGroup1_1">
+	        masculino</label>
+	        <input type="submit" name="submit2" id="submit2" value="Enviar"></td>
+        </tr>
+    </table>
+
+   </section>
+</main>
+<footer>
+  <p>Zurisadai Rosario Tamayo</p>
+  <p>&nbsp;</p>
+</footer>
+</body>
+</html>

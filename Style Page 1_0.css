@@ -1,0 +1,235 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    background-color: #57C981;
+    height: 150px;
+}
+body nav {
+    background-color: #25AC56;
+    height: 80px;
+}
+body header, body nav, body main, body footer {
+    padding: 20px 0px;
+    width: 1200px;
+}
+body main {
+    background-color: #42CB4D;
+}
+body main section {
+    width: 800px;
+    margin: 40px auto;
+    padding: 35px;
+    height: auto;
+    background-color: #94CB42;
+}
+main section h2 {
+    padding: 22px;
+    text-align: center;
+    color: #524A23;
+}
+main section ul {
+}
+.interno li {
+    background-color: #2FB83A;
+    width: 136px;
+    height: 43px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 20px;
+    color: #F9EA9A;
+    text-align: center;
+}
+.interno li a {
+    color: #633D0D;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    text-shadow: 0px 0px 8px #FFFFFF;
+    border-radius: 60%;
+    border-color: #42CB4D;
+}
+
+
+
+
+
+
+body footer {
+    background-color: #4FB88F;
+}
+main section p a {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 20%;
+    border-color: #CCC391;
+}
+
+body header h1 {
+    color: #F9EA9A;
+    text-align: center;
+}
+body footer h6 {
+    color: #F9EA9A;
+    text-align: center;
+    font-size: 18px;
+}
+#marcador1 {
+}
+#marcador_1 {
+}
+#marcador2 {
+}
+#marcador3 {
+}
+#marcador4 {
+}
+#correo {
+    color: #9C0A2E;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#interno {
+    color: #08412B;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+}
+#externo {
+    color: #AC6001;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+#tabla_1  {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-collapse: collapse;
+}
+#tabla_1 thead tr th {
+    background-color: #25AC56;
+    color: #F9EA9A;
+    height: 40px;
+}
+#tabla_1 tbody tr td {
+    background-color: #47C876;
+    color: #633D0D;
+    font-weight: 800;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#tabla_1 td, #tabla_1 th {
+    border: 5px groove #25AC56;
+}
+.tabla_2 {
+    background-color: #B9E576;
+    margin: 30px 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabla_2 tbody tr td {
+    padding: 15px;
+}
+.tabla_2  tbody tr:hover {
+    background-color: #2FB83A;
+}
+.tabla_2 thead th  {
+    background-color: #5A831D;
+    color: #E8DFAD;
+    font-weight: bold;
+}
+
+
+
+
+.tabla_2 {
+}
+#tabla_3 tr:nth-child(even) {
+    background-color: #7CA88C;
+}
+#img1 {
+    width: 300px;
+    height: 300px;
+}
+#imgfloat1D {
+    width: 50%;
+    height: 50%;
+    float: right;
+    border-radius: 30%;
+    padding: 10px 20px;
+}
+#imgfloat2I {
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 15%;
+    height: 30%;
+}
+main section p {
+    padding: 5px 0px;
+}
+#background_img_1 {
+    background-image: url(%E2%9C%A8%EC%9B%A8%EC%A7%80%E2%9C%A8%20on%20Twitter.jpg);
+    background-size: 80% auto;
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+#titleimagenfondo {
+    color: #FFFFFF;
+}
+.img_filtro {
+    width: 25%;
+    margin: 10px;
+    height: 15%;
+}
+.filtro_greyscale {
+    filter: grayscale(100%);
+
+}
+.filtro_invert {
+    filter: invert(100%);
+}
+.filtro_blur {
+    filter: blur(5px);
+}
+.filtro_brightness {
+    filter: brightness(10%);
+}
+.filtro_contrast {
+    filter: contrast(50%);
+}
+.filtro_opacity {
+    filter: opacity(50%);
+}
+.filtro_saturate {
+    filter: saturate(400%);
+}
+.fitro_sepia {
+    filter: sepia(100%);
+}
+.img_sombras {
+    width: 50%;
+    height: 50%;
+    filter: drop-shadow(20px 20px 10px gray);
+}
+main section h2 {
+}
+#video_1 {
+    width: 70%;
+    display: inline;
+    height: auto;
+}
+.video_2 {
+    width: 80%;
+    height: auto;
+}
+body nav {
+}

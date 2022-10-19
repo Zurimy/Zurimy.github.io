@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="Style Page 1_0.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas&nbsp;&nbsp;</h1>
+En esta pagina hablamos de Tablas</header>
+<nav><section>
+    <ul class="interno">
+      <li>Tipos de tablas</li>
+      <li>Tipos de tablas</li>
+      <li>Tipos de tablas</li>
+<li>Tipos de tablas</li>
+    </ul>
+  </section></nav>
+<main>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus recusandae modi, maxime? Eaque nobis animi ipsum porro odio nulla deleniti fugit ullam commodi voluptate asperiores officia repellat, sit temporibus! Inventore tempore eveniet, non? Unde, quam nesciunt magnam sed excepturi ipsa non consequatur est quasi ex, deleniti repellendus distinctio, voluptates voluptate. Eligendi tenetur eos quas laboriosam quis ducimus, ab, ipsa sapiente voluptate nemo animi itaque labore rem quo debitis reprehenderit maiores fugit vitae recusandae veritatis, delectus libero ipsam dolores, possimus harum. Eum earum odio, laudantium ut numquam vero nulla deleniti sint laboriosam odit cupiditate debitis quae quis provident, ipsa, necessitatibus, corporis?</p>
+  </section>
+UwU</main>
+<footer><h6>Elaborado por Zurisadai R. Tamayo</h6></footer>
+</body>
+</html>

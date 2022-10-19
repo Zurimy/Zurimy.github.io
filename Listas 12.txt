@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+	<style type="text/css">	
+    body header h1 {
+    margin: 0 auto;
+    height: 200px;
+    color: #A4E9FF;
+    font-size: 72pt;
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #2F7488;
+}
+main section ol , main section ul{
+    padding: 20px;
+}
+main section ul {
+    padding: 30px;
+}
+nav {
+    height: 50px;
+    background-color: #3A88A0;
+}
+		
+    header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+main section p {
+}
+    main {
+    background-color: #2F7488;
+}
+    footer {
+    height: 40px;
+    background-color: #3A88A0;
+    text-align: center;
+    padding: 20px 0px;
+    color: #A4E9FF;
+    font-size: 24px;
+}
+    * {
+    padding: 0;
+    margin: 0;
+}
+    main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #A4E9FF;
+}
+    main {
+    padding: 20px 0px;
+}
+    section {
+    padding: 50px;
+}
+    .box_u {
+}
+    #lista_uno {
+}
+    .box_u #lista_uno li {
+    list-style-type: katakana;
+}
+.box_a #lista_dos li {
+    list-style-type: hiragana;
+}
+.box_a #sublist li {
+    list-style-type: disc;
+}
+    .lista_3 {
+}
+    #lista_3 {
+}
+.box_u #lista_3 li {
+    list-style-image: url(icons8-halc%C3%B3n-100.png);
+}
+#navegación li {
+    margin-top: 12px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+    display: inline-block;
+    height: 0px;
+    color: #E6F5FB;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #2E3A43;
+    text-align: center;
+    width: 157px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<style type="text/css">	
+    body header h1 {
+    margin: 0 auto;
+    height: 200px;
+    color: #A4E9FF;
+    font-size: 72pt;
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #2F7488;
+}
+main section ol , main section ul{
+    padding: 20px;
+}
+main section ul {
+    padding: 30px;
+}
+nav {
+    height: 50px;
+    background-color: #3A88A0;
+    width: auto;
+}
+		
+    header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+main section p {
+}
+    main {
+    background-color: #2F7488;
+}
+    footer {
+    height: 40px;
+    background-color: #3A88A0;
+    text-align: center;
+    padding: 20px 0px;
+    color: #A4E9FF;
+    font-size: 24px;
+}
+    * {
+    padding: 0;
+    margin: 0;
+}
+    main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #A4E9FF;
+}
+    main {
+    padding: 20px 0px;
+}
+    section {
+    padding: 50px;
+}
+#lista_dos #lista_2.1 li {
+    list-style-type: hiragana;
+}
+</style><style type="text/css">	
+    body header h1 {
+    margin: 0 auto;
+    height: 200px;
+    color: #A4E9FF;
+    font-size: 72pt;
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #2F7488;
+}
+main section ol , main section ul{
+    padding: 20px;
+}
+main section ul {
+    padding: 30px;
+}
+nav {
+    background-color: #;
+    height: auto;
+}
+		
+    header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+main section p {
+}
+    main {
+    background-color: #2F7488;
+}
+    footer {
+    height: 40px;
+    background-color: #3A88A0;
+    text-align: center;
+    padding: 20px 0px;
+    color: #A4E9FF;
+    font-size: 24px;
+}
+    * {
+    padding: 0;
+    margin: 0;
+}
+#navegacion li {
+    /* [disabled]list-style-type: katakana-iroha; */
+    list-style-image: url(icons8-halc%C3%B3n-100.png);
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+    main section {
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #A4E9FF;
+}
+    main {
+    padding: 20px 0px;
+}
+    section {
+    padding: 50px;
+}
+#box_u {
+    background-color: #C750A1;
+}
+   
+	 .box_a {
+    background-color: #1CC172;
+}
+    .box_u {
+    background-color: #4FB88F;
+}
+	#navegación li a:active{color: #2A5728}
+	#navegación li a:link{ color: #4FB88F; font-size: 16px; text-decoration: none; font-weight: bolder}
+	#navegación li a:hover{ color: #FA124C; width: 100px; padding: 20px}
+	# li a { width: 120px; height: auto;padding: 20px; background-color: #FBC0E2;display: inline-block;margin-left: 10px;margin-right: 10px;}
+#navegación li a {
+    border: 2px solid #2D4F6B;
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #BBD6DF;
+    width: 100px;
+    border-radius: 60%;
+    height: auto;
+}
+</style>  
+
+<body>  
+	<header>    
+		<h1>Tipos de Listas</h1>   
+	</header>  
+<nav>
+  <ul id="navegación">
+    <li><a href="../Formatos de Texto/Formatos de texto Zuri.html">Formatos</a>&nbsp;</li>
+    <li><a href="Listas 1.html">Listas</a>&nbsp;</li>
+    <li><a href="Tablas 12.html">Tablas</a>&nbsp;</li>
+    <li><a href="Enlaces 12.html">Enlaces</a>&nbsp;</li>
+  </ul>
+</nav>  
+<main>    
+		<section class="box_a">      
+			<h2>Listas sin ordenar o desordenadas</h2>      
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quibusdam, temporibus sit voluptas reprehenderit fugiat dolores officia quod magnam eaque aliquid maxime eveniet dolorem maiores qui voluptatum sunt facere necessitatibus, vero hic harum consequuntur voluptatem dicta. Error sit harum nobis tempore consectetur nemo soluta, ad atque magnam dolorum! Facilis, molestiae.</p>     
+	      <!-- lorem(cantidad de palabras)+tab -->   
+			<ul>    
+			 	<li>Puebla</li>    
+			 	<li>Tlaxcala</li>    
+			 	<li>Guerrero</li>    
+			 	<li>Veracruz</li>    
+			 	<li>CDMX</li>  
+			</ul> 
+		</section>
+		<section class="box_u">      
+			<h2>Listas Ordenadas</h2>     
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aperiam numquam adipisci neque, nobis tempora illum esse voluptatibus eos non, similique doloremque animi quasi beatae veritatis vitae! Voluptates labore expedita cumque, fugit a, molestiae fugiat perspiciatis quibusdam autem cupiditate rerum quisquam odio minus. Eligendi beatae dolorem explicabo aliquam animi earum placeat, ea nisi sequi ducimus esse laboriosam cumque repudiandae dolores accusantium itaque asperiores ab, et, iure minima doloribus! Optio repellendus nemo, eum voluptatem hic vero iure velit corporis provident. Qui, quas laborum quaerat vel iste consectetur, expedita, officiis alias suscipit modi obcaecati eaque pariatur id dignissimos voluptatum inventore est aliquid.</p> 
+		  <ol>  
+					<li>Zacatecas</li>    
+					<li>Colima</li>    
+					<li>Puebla</li>    
+					<li>Tabasco</li>    
+					<li>Aguascalientes</li>      
+				</ol>
+  </section>
+  <section id="box_u">      
+			<h2>Lista mixta</h2>      
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt minus vel provident enim nostrum ratione voluptate ducimus voluptas quia. Hic, culpa consectetur reiciendis. Ipsa dolorum enim voluptates alias quae!</p>   
+				<ol>      
+					<li>Zacatecas</li>      
+					<li>Colima</li>    
+					<li>Tabasco</li>      
+					<li>Aguascalientes</li>      
+					<li>Puebla</li>   
+							<ul>     
+								<li>Acajete</li>     
+								<li>Atlixco</li>     
+								<li>Cholula</li>     
+								<li>Tepeaca</li>     
+								<li>Chachapa</li>     
+								<li>Puebla</li>     
+									<ul>       
+										<li>San Manuel</li>       
+										<li>San Bartolo</li>       
+										<li>Bugambilias</li>       
+										<li>Tres cruces</li>      
+									</ul>
+							</ul>
+				</ol>        
+		</section>
+		<section class="box_u">
+		  <h2>1Lista...</h2>
+		  <p><50>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam optio eveniet, fugit quo officiis, aut vero consequuntur minus consectetur, distinctio deleniti praesentium tempora repellat officia voluptatum cum! Voluptate, voluptates, perspiciatis.</50></p>
+   		  <ul id="lista_uno">
+				<li>a</li>
+				<li>b</li>
+				<li>c</li>
+				<li>d</li>
+				<li>e</li>
+			</ul>
+	</section>
+  <section class="box_a">
+		  <h2>2Lista...</h2>
+		  <p><50>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam optio eveniet, fugit quo officiis, aut vero consequuntur minus consectetur, distinctio deleniti praesentium tempora repellat officia voluptatum cum! Voluptate, voluptates, perspiciatis.</50></p>
+		  <ul id="lista_dos">
+	  			<li>1</li>
+	  			<li>2</li>
+	  			<li>3
+	  		<ul id="sublist">
+						<li>3.1</li>
+						<li>3.2</li>
+						<li>3.3</li>
+	  		</ul>
+				</li>
+	  			<li>4</li>
+	  			<li>5</li>
+	</ul>
+	</section>
+  <section class="box_u">
+		  <h2>3Lista...</h2>
+		  <p><50>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam optio eveniet, fugit quo officiis, aut vero consequuntur minus consectetur, distinctio deleniti praesentium tempora repellat officia voluptatum cum! Voluptate, voluptates, perspiciatis.</50></p>
+	<ol id="lista_3"> 
+	  <li>tipos de flores</li>
+	  <li>tipos de flores</li>
+	  <li>tipos de flores</li>
+	  <li>tipos de flores</li>
+	  <li>tipos de flores</li>
+	  </ol>	  
+	</section>
+<!--shortcut para secciones multiples con encabezado y parrafo(section>h2+p)*3-->  
+  </main>  
+	<footer>    
+	  <h6>Elaborado por Zurisadai Rosario Tamayo</h6>  
+	</footer>  
+</body>  
+</html> 
